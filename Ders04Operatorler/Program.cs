@@ -1,0 +1,46 @@
+﻿using System;
+
+namespace Ders04Operatorler
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Operatörler!");
+
+            //1-Aritmetik Operatörler
+            int a = 50;
+            int b = 20;
+            int c = 30;
+
+            int sonuc = a + b;
+            int sonuc1 = a - b;
+            int sonuc2 = a * b;
+            float sonuc3 = (float)a / (float)b;
+
+            int sonuc4 = a % b;
+            c--; //c nin değerini 1 azalt
+            int sonuc5 = c;
+
+            b++; //b nin değerini 1 artır
+            int sonuc6 = b;
+
+            Console.WriteLine("a + b " + sonuc);
+            Console.WriteLine("a - b " + sonuc1);
+            Console.WriteLine("a * b " + sonuc2);
+            Console.WriteLine("a / b " + sonuc3);
+            Console.WriteLine("a % b " + sonuc4);
+            Console.WriteLine("c-- " + sonuc5);
+            Console.WriteLine("b++ " + sonuc6);
+
+            Console.WriteLine("2- Atama Operatörleri (=,+=,-=,*=,/=,%=)"); //
+
+            Console.WriteLine(a = a + b);
+            Console.WriteLine(a += b);
+            Console.WriteLine(a -= b);
+            Console.WriteLine(a *= b);
+            Console.WriteLine(a /= b);
+            Console.WriteLine(a %= b);
+        }
+    }
+}
