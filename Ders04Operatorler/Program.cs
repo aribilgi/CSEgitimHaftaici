@@ -41,6 +41,18 @@ namespace Ders04Operatorler
             Console.WriteLine(a *= b);
             Console.WriteLine(a /= b);
             Console.WriteLine(a %= b);
+
+            Console.WriteLine("3-İlişkisel Operatörler (==,!=,<,>,<=,>=,?:)");//
+
+            Console.WriteLine("a(" + a + ") b(" + b + ") ye eşit mi " + (a == b)); //
+            Console.WriteLine($"a({a}) b({b}) ye eşit değil mi " + (a != b)); //
+            Console.WriteLine($"a({a}) b({b}) den büyük mü " + (a > b)); //
+            Console.WriteLine($"a({a}) b({b}) den küçük mü " + (a < b));// 
+            Console.WriteLine($"a({a}) b({b}) den küçük mü veya b ye eşit mi " + (a <= b)); //
+            Console.WriteLine($"a({a}) b({b}) den büyük mü veya eşit mi " + (a >= b)); //
+
+            Console.WriteLine((a == b) ? "a b ye eşit" : "a b ye eşit değil");
+
         }
     }
 }
