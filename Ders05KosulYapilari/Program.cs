@@ -29,6 +29,7 @@ namespace Ders05KosulYapilari
             }
             */
             // Örnek 2
+            /*
             Console.WriteLine("Kullanıcı Adınızı Giriniz");
             string kullaniciadi = Console.ReadLine();//Console.ReadLine() metodu ekrandan girilen değeri yakalar ve kullaniciadi değişkenine atar
             Console.WriteLine("Şifrenizi Giriniz");
@@ -45,6 +46,52 @@ namespace Ders05KosulYapilari
                 Console.WriteLine("Kullanıcı Bulunamadı!");
             }
             Console.Read();
+            */
+            
+            // Örnek 3
+            int saat = DateTime.Now.Hour; // geçerli zamanın saat bilgisini alıp saat değişkenine atadık
+            int dakika = DateTime.Now.Minute;
+            if (saat < 20)
+            {
+                Console.WriteLine("Saat : "  + saat + ":" + dakika + " İyi Günler Üstat Splinter");
+            }
+            /*else Console.WriteLine("Saat : " + saat + " İyi Akşamlar Çekirge"); // Eğer tek satırlık bir kod yazacaksak süslü parantez kullanmak zorunda değiliz!
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine(DateTime.Now.ToShortTimeString());
+            Console.WriteLine(DateTime.Now.ToLongTimeString());
+            Console.WriteLine(DateTime.Now.ToShortDateString());
+            */
+            Console.WriteLine("Ternary Operatörü ile if else yazmadan ");
+            Console.WriteLine((saat < 20) ? "İyi Günler" : "İyi Akşamlar"); // Eğer sadece if ve else kullanacaksak bu operatörle daha kısa bir kodla işimizi çözebiliriz. Burada şartı (saat < 20) ? kısmı belirler burası if şartı olarak çalışır. : karakterinden sonraki bölüm ise değilse yani else kısmıdır
+
+            int ay = DateTime.Now.Month;
+            Console.WriteLine("Ay Değeri : " + ay);
+            switch (ay)
+            {
+                case 12:
+                case 1:
+                case 2:
+                    Console.WriteLine("Kış mevsimi");
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                    Console.WriteLine("İlkbahar mevsimi");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    Console.WriteLine("Yaz mevsimi");
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    Console.WriteLine("Sonbahar mevsimi");
+                    break;
+                default:
+                    Console.WriteLine("Yanlış bilgi.");
+                    break;
+            }
 
         }
     }
