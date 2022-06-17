@@ -53,3 +53,29 @@ foreach (var item in urunler)
 {
     Console.WriteLine($"Ürün No : {item}");
 }
+
+Console.WriteLine();
+Console.WriteLine("İç İçe Foreach Döngüsü");
+
+string[] urunListesi = { "Ürün 1", "Ürün 2", "Ürün 3" };
+
+foreach (var kategoriAdi in kategoriler)
+{
+    Console.WriteLine($"Kategori Adı : {kategoriAdi}");
+    foreach (var urunAdi in urunListesi)
+    {
+        Console.WriteLine($"Ürün Adı : {urunAdi}");
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("İç İçe For Döngüsü");
+
+for (int i = 1; i < 5; i++)
+{
+    Console.WriteLine($"İ nin değeri : {i}");
+    for (int j = 1; j < 3; j++)
+    {
+        Console.WriteLine($"\tJ nin değeri : {j}");
+    }
+}

@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders04Operatorler", "Ders04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders05KosulYapilari", "Ders05KosulYapilari\Ders05KosulYapilari.csproj", "{177E46F1-7F95-4806-A58D-DFB080BCD68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders06Donguler", "Ders06Donguler\Ders06Donguler.csproj", "{E16BAB75-689B-4D3A-9C41-DE5B07AF2E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders06Donguler", "Ders06Donguler\Ders06Donguler.csproj", "{E16BAB75-689B-4D3A-9C41-DE5B07AF2E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders07Metotlar", "Ders07Metotlar\Ders07Metotlar.csproj", "{750E1BE6-8D72-4450-9EBC-7A660BED90B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders08Classlar", "Ders08Classlar\Ders08Classlar.csproj", "{6C016BCC-3FA6-4CC9-9FF1-4FB00745E815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{E16BAB75-689B-4D3A-9C41-DE5B07AF2E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16BAB75-689B-4D3A-9C41-DE5B07AF2E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16BAB75-689B-4D3A-9C41-DE5B07AF2E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750E1BE6-8D72-4450-9EBC-7A660BED90B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750E1BE6-8D72-4450-9EBC-7A660BED90B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750E1BE6-8D72-4450-9EBC-7A660BED90B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750E1BE6-8D72-4450-9EBC-7A660BED90B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C016BCC-3FA6-4CC9-9FF1-4FB00745E815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C016BCC-3FA6-4CC9-9FF1-4FB00745E815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C016BCC-3FA6-4CC9-9FF1-4FB00745E815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C016BCC-3FA6-4CC9-9FF1-4FB00745E815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
