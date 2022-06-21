@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+//using Ders08Classlar;
 
 public class Ev // C# ta class tanımlama
 {
@@ -7,7 +7,7 @@ public class Ev // C# ta class tanımlama
     public string SokakAdi;
 }
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace Ders08Classlar // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
@@ -42,6 +42,31 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             Console.WriteLine("Kurs Bilgilerim \n : Kurs Adı {0} Eğitim Adı : {1} Kapı No : {2}", kurs.KursAdi, kurs.EgitimAdi, kurs.KapiNo);
 
+            Araba araba = new()
+            {
+                KasaTipi = "Sedan",
+                Marka = "Fiat",
+                Model = "Linea",
+                Renk = "Beyaz",
+                UretimYili = 2013
+            };
+
+            Console.WriteLine($"Araba Bilgilerimiz : \n Marka : {araba.Marka} \n Model : {araba.Model} \n Renk : {araba.Renk} ");
+
+            Urun urun = new()
+            {
+                Fiyat = 99,
+                Ozellikler = "Işıklı klavye",
+                Stok = 18,
+                UrunAdi = "Oyuncu klavye"
+            };
+
+            Console.WriteLine("Ürün Bilgileri");
+            Console.WriteLine($"Ürün Adı : {urun.UrunAdi}");
+            Console.WriteLine($"Ürün Fiyatı : {urun.Fiyat}");
+            Console.WriteLine($"Ürün Stok : {urun.Stok}");
+            Console.WriteLine($"Ürün Özellikler : {urun.Ozellikler}");
+
         }
     }
 }
@@ -52,4 +77,13 @@ public class Kurs
     public string KursAdi;
     public string EgitimAdi;
     public int SinifMevcudu;
+}
+
+public class Araba
+{
+    public string Marka;
+    public string Model;
+    public string Renk;
+    public string KasaTipi;
+    public int UretimYili;
 }
