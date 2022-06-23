@@ -67,6 +67,16 @@ namespace Ders08Classlar // Note: actual namespace depends on the project name.
             Console.WriteLine($"Ürün Stok : {urun.Stok}");
             Console.WriteLine($"Ürün Özellikler : {urun.Ozellikler}");
 
+            Console.WriteLine();
+            Console.WriteLine("Sınıfta Metot Kullanımı");
+            SiniftaMetotKullanimi siniftaMetotKullanimi = new();
+            siniftaMetotKullanimi.ToplamaYap();
+            //Console.WriteLine(siniftaMetotKullanimi.mesaj);
+            // Static olarak belirtilmeyen metot ve değişkenler dinamiktir.
+            // Sınıfların içindeki Dinamik metot ve değişkenlere ulaşmak için yukarıdaki gibi new leyerek nesne oluşturmamız gerekir.
+
+            SiniftaMetotKullanimi.StatikToplamaYap(18, 18); // statik metoda direk class adı.metot adı şeklinde erişebiliriz, nesneye(siniftaMetotKullanimi) ihtiyacmız yok!
+            Console.WriteLine(SiniftaMetotKullanimi.StatikDegisken);
         }
     }
 }
