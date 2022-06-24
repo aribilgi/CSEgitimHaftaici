@@ -1,6 +1,6 @@
 ﻿namespace Ders08Classlar
 {
-    internal class SiniftaMetotKullanimi
+    public class SiniftaMetotKullanimi
     {
         public string mesaj = "";
         public SiniftaMetotKullanimi() // klavyeden ctor yazıp 2 kere tab a basarak oluşturduk

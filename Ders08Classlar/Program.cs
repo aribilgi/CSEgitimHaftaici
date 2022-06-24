@@ -9,7 +9,7 @@ public class Ev // C# ta class tanımlama
 
 namespace Ders08Classlar // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
