@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders13Enumlar", "Ders13Enum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders14KalitimInheritance", "Ders14KalitimInheritance\Ders14KalitimInheritance.csproj", "{5F775093-9633-4305-A2FE-B4CF38BB15A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders15KapsullemeEncapsulation", "Ders15KapsullemeEncapsulation\Ders15KapsullemeEncapsulation.csproj", "{676F66A3-68CC-4871-8666-FAB2A8D7F355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders15KapsullemeEncapsulation", "Ders15KapsullemeEncapsulation\Ders15KapsullemeEncapsulation.csproj", "{676F66A3-68CC-4871-8666-FAB2A8D7F355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders16InterfacesArayuzler", "Ders16InterfacesArayuzler\Ders16InterfacesArayuzler.csproj", "{7E930D52-D303-419C-8970-108EC0FB6824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders16InterfacesArayuzler", "Ders16InterfacesArayuzler\Ders16InterfacesArayuzler.csproj", "{7E930D52-D303-419C-8970-108EC0FB6824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders17AbstractClasses", "Ders17AbstractClasses\Ders17AbstractClasses.csproj", "{B19F80FA-73C2-4474-A53C-7A4FD3477ADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{7E930D52-D303-419C-8970-108EC0FB6824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E930D52-D303-419C-8970-108EC0FB6824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E930D52-D303-419C-8970-108EC0FB6824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19F80FA-73C2-4474-A53C-7A4FD3477ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19F80FA-73C2-4474-A53C-7A4FD3477ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19F80FA-73C2-4474-A53C-7A4FD3477ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19F80FA-73C2-4474-A53C-7A4FD3477ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
