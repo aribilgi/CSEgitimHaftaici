@@ -5,7 +5,15 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Abstract Classes!");
+            //Database database = new Database(); abstract class lar bu şekilde new lenemez!!
+            Database database = new Oracle();//Database sınıfından yeni bir oracle nesnesi oluşturuyoruz
+            database.Add();
+            database.Delete();
 
+            Database database2 = new SqlServer();//Database sınıfından yeni bir SqlServer nesnesi oluşturuyoruz
+            database2.Add();
+            database2.Delete();
+            database2.Update();
         }
     }
 
